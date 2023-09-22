@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>etc</title>
+    <link rel="stylesheet" href="/assets/css/index.css" />
+	</head>
+	<body>
+		<div id="app">
+			<div class="container container24325">
+				<div class="flex diygw-col-24 diygw-bottom">
+					<div class="diygw-grid diygw-actions">
+						<button @click="navigateTo" data-type="page" data-url="mission.html" class="diygw-action">
+							<div class="diygw-grid-inner">
+								<div class="diygw-grid-icon diygw-avatar" style="font-size:28px font-size:calc(28px - 12px );width:29px;height:28px;">
+									<img mode="aspectFit" class="diygw-avatar-img" src="./static/1-001.png" />
+								</div>
+								<div class="diygw-grid-title">หน้าหลัก</div>
+							</div>
+						</button>
+						<button @click="navigateTo" data-type="page" data-url="/pages/null" class="diygw-action">
+							<div class="diygw-grid-inner">
+								<div class="diygw-grid-icon diygw-avatar" style="font-size:28px font-size:calc(28px - 12px );width:29px;height:28px;">
+									<img mode="aspectFit" class="diygw-avatar-img" src="./static/2-001.png" />
+								</div>
+								<div class="diygw-grid-title">ภารกิจ</div>
+							</div>
+						</button>
+						<button @click="navigateTo" data-type="page" data-url="/pages/null" class="diygw-action">
+							<div class="diygw-grid-inner">
+								<div class="diygw-grid-icon diygw-avatar" style="font-size:28px font-size:calc(28px - 12px );width:29px;height:28px;">
+									<img mode="aspectFit" class="diygw-avatar-img" src="./static/group02.gif" />
+								</div>
+								<div class="diygw-grid-title">อันดับ</div>
+							</div>
+						</button>
+						<button @click="navigateTo" data-type="page" data-url="/pages/null" class="diygw-action" style="color: #fc054f !important">
+							<div class="diygw-grid-inner">
+								<div class="diygw-grid-icon diygw-avatar" style="font-size:28px font-size:calc(28px - 12px );width:29px;height:28px;">
+									<img mode="aspectFit" class="diygw-avatar-img" src="./static/icon15_dz.png" />
+									<div class="diygw-tag badge tabbar-badge-3 red">1</div>
+								</div>
+								<div class="diygw-grid-title">แนะนำเพื่อน</div>
+							</div>
+						</button>
+						<button @click="navigateTo" data-type="page" data-url="/pages/null" class="diygw-action">
+							<div class="diygw-grid-inner">
+								<div class="diygw-grid-icon diygw-avatar" style="font-size:28px font-size:calc(28px - 12px );width:29px;height:28px;">
+									<img mode="aspectFit" class="diygw-avatar-img" src="./static/me.png" />
+								</div>
+								<div class="diygw-grid-title">ข้อมูล</div>
+							</div>
+						</button>
+					</div>
+				</div>
+				<div class="flex diygw-col-24 items-center flex-nowrap flex7-clz">
+					<img src="./static/f.png" class="image1-size diygw-image diygw-col-0 image1-clz" mode="widthFix" />
+					<div class="flex flex-wrap diygw-col-0 flex-direction-column justify-between flex-clz">
+						<div class="diygw-col-24 text-clz">
+							<h4>
+								<strong><span style="font-size: 18px; color: #ffffff">คลิกเพื่อเข้าสู่ระบบ</span></strong>
+							</h4>
+						</div>
+					</div>
+					<div class="diygw-text-line1 diygw-col-0 gradual-orange -clz">ทำภารกิจ</div>
+				</div>
+				<div class="flex diygw-col-24 items-center flex-wrap flex6-clz">
+					<div class="flex flex-wrap diygw-col-24 items-center flex13-clz">
+						<img src="./static/red-envelope-chat.png" class="image-size diygw-image diygw-col-4 image-clz" mode="widthFix" />
+						<div class="diygw-col-0 text9-clz">
+							<p style="text-align: center">
+								<strong
+									><span style="font-size: 14px">ของขวัญสำหรับนักแชร์  <span style="color: #f91010">รับทันที  50 บาท</span></span></strong
+								>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="flex flex-wrap diygw-col-24 flex-direction-column flex37-clz">
+					<div class="flex diygw-col-24">
+						<div class="diygw-grid col-4">
+							<div class="diygw-grid-item">
+								<div class="diygw-grid-inner grid1-item-clz">
+									<div class="diygw-grid-icon diygw-avatar grid1-icon-clz">
+										<img mode="aspectFit" class="diygw-avatar-img" src="./static/gift05.png" />
+									</div>
+									<div class="diygw-grid-title">คลิกวันนี้</div>
+								</div>
+							</div>
+							<div class="diygw-grid-item">
+								<div class="diygw-grid-inner grid1-item-clz">
+									<div class="diygw-grid-icon diygw-avatar grid1-icon-clz">
+										<img mode="aspectFit" class="diygw-avatar-img" src="./static/star.png" />
+									</div>
+									<div class="diygw-grid-title">คลิกทั้งหมด</div>
+								</div>
+							</div>
+							<div class="diygw-grid-item">
+								<div class="diygw-grid-inner grid1-item-clz">
+									<div class="diygw-grid-icon diygw-avatar grid1-icon-clz">
+										<img mode="aspectFit" class="diygw-avatar-img" src="./static/simk.png" />
+									</div>
+									<div class="diygw-grid-title">รายได้</div>
+								</div>
+							</div>
+							<div class="diygw-grid-item">
+								<div class="diygw-grid-inner grid1-item-clz">
+									<div class="diygw-grid-icon diygw-avatar grid1-icon-clz">
+										<img mode="aspectFit" class="diygw-avatar-img" src="./static/yhq.png" />
+									</div>
+									<div class="diygw-grid-title">แลกเป็นเงิน</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex flex-wrap diygw-col-24 flex-direction-column flex9-clz">
+					<div class="diygw-title flex diygw-col-24">
+						<div class="title font-normal">สำหรับสมาชิกใหม่</div>
+						<div class="more">
+							รายละเอียด
+							<span class="diy-icon-right"></span>
+						</div>
+					</div>
+					<div class="flex diygw-col-24 flex-nowrap flex1-clz">
+						<img src="./static/Indiana-Jones.jpg" class="image4-size diygw-image diygw-col-0 image4-clz" mode="scaleToFill" />
+						<div class="flex diygw-col-0 flex-direction-column justify-between flex-nowrap flex2-clz">
+							<div class="diygw-col-24 text18-clz">แชร์หนังเรื่องนี้ให้เพื่อนคุณกดดู ครบ 20 คน รับเงินทันที 30 บาท</div>
+							<div class="flex flex-wrap diygw-col-24"></div>
+						</div>
+					</div>
+				</div>
+				<div class="flex flex-wrap diygw-col-24 flex-direction-column flex4-clz">
+					<div class="diygw-title flex diygw-col-24">
+						<div class="title font-normal">แชร์หนัง</div>
+						<div class="more">
+							รายละเอียด
+							<span class="diy-icon-right"></span>
+						</div>
+					</div>
+					<div class="flex diygw-col-24 flex-nowrap flex5-clz">
+						<img src="./static/Through-My-Window-Across-the-Sea.jpg" class="image2-size diygw-image diygw-col-0 image2-clz" mode="scaleToFill" />
+						<div class="flex diygw-col-0 flex-direction-column justify-between flex-nowrap flex8-clz">
+							<div class="diygw-col-24 text1-clz">แชร์หนังเรื่องนี้ให้เพื่อนคุณกดดู ครบ 20 คน รับเงินทันที 30 บาท</div>
+							<div class="flex flex-wrap diygw-col-24"></div>
+						</div>
+					</div>
+				</div>
+				<div class="flex flex-wrap diygw-col-24 flex-direction-column flex11-clz">
+					<div class="diygw-title flex diygw-col-24">
+						<div class="title font-normal">แชร์หนัง</div>
+						<div class="more">
+							รายละเอียด
+							<span class="diy-icon-right"></span>
+						</div>
+					</div>
+					<div class="flex diygw-col-24 flex-nowrap flex12-clz">
+						<img src="./static/Through-My-Window-Across-the-Sea.jpg" class="image3-size diygw-image diygw-col-0 image3-clz" mode="scaleToFill" />
+						<div class="flex diygw-col-0 flex-direction-column justify-between flex-nowrap flex14-clz">
+							<div class="diygw-col-24 text4-clz">แชร์หนังเรื่องนี้ให้เพื่อนคุณกดดู ครบ 20 คน รับเงินทันที 30 บาท</div>
+							<div class="flex flex-wrap diygw-col-24"></div>
+							<div class="flex diygw-col-24 justify-center">
+								<div class="diygw-tag margin-xs md bg-cyan">
+									<span> รอตรวจสอบ </span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="version text-grey flex-direction-column flex diygw-col-24 justify-center align-center">
+					<div>DIY官网代码生成器生成</div>
+					<div>http://www.diygw.com</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</body>
+
+	<style>
+		.tabbar-badge-3 {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.flex7-clz {
+			margin-left: 5px;
+			padding-top: 5px;
+			z-index: 100;
+			padding-left: 0px;
+			width: calc(100% - 5px - 5px) !important;
+			font-size: 15px !important;
+			padding-bottom: 5px;
+			margin-top: 15px;
+			margin-bottom: 5px;
+			margin-right: 5px;
+			padding-right: 5px;
+		}
+		.image1-clz {
+			margin-left: 10px;
+			border-bottom-left-radius: 200px;
+			overflow: hidden;
+			border-top-left-radius: 200px;
+			margin-top: 10px;
+			border-top-right-radius: 200px;
+			border-bottom-right-radius: 200px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+		}
+		.image1-size {
+			height: 60px !important;
+			width: 60px !important;
+		}
+		.flex-clz {
+			margin-left: 5px;
+			z-index: 100;
+			flex: 1;
+			margin-top: 10px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+		}
+		.text-clz {
+			margin-left: 5px;
+			width: calc(100% - 5px - 5px) !important;
+			font-size: 18px !important;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			margin-right: 5px;
+		}
+		.-clz {
+			padding-top: 5px;
+			border-bottom-left-radius: 200px;
+			padding-left: 10px;
+			padding-bottom: 8px;
+			border-top-right-radius: 0px;
+			margin-right: -5px;
+			margin-left: 5px;
+			overflow: hidden;
+			border-top-left-radius: 200px;
+			margin-top: 15px;
+			border-bottom-right-radius: 0px;
+			margin-bottom: 5px;
+			padding-right: px;
+		}
+		.flex6-clz {
+			border-bottom-left-radius: 18px;
+			z-index: 100;
+			border-top-right-radius: 18px;
+			margin-right: 15px;
+			background-color: rgba(255, 255, 255, 1);
+			margin-left: 15px;
+			box-shadow: 0px 1px 3px rgba(31, 31, 31, 0.16);
+			overflow: hidden;
+			width: calc(100% - 15px - 15px) !important;
+			border-top-left-radius: 18px;
+			margin-top: 40px;
+			border-bottom-right-radius: 18px;
+			margin-bottom: 5px;
+		}
+		.flex13-clz {
+			z-index: 100;
+			background-image: linear-gradient(135deg, #ffeacf 1%, #f8dfb6 99%);
+		}
+		.image-clz {
+			margin-left: 8px;
+			flex-shrink: 0;
+			padding-top: 5px;
+			padding-left: 5px;
+			width: calc(16.6666666667% - 8px - 8px) !important;
+			padding-bottom: 5px;
+			margin-top: 8px;
+			margin-bottom: 8px;
+			height: 50px !important;
+			margin-right: 8px;
+			padding-right: 5px;
+		}
+		.image-size {
+			height: 39px !important;
+			width: 32px !important;
+		}
+		.text9-clz {
+			margin-left: 5px;
+			flex: 1;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			margin-right: 5px;
+		}
+		.flex37-clz {
+			padding-top: 10px;
+			border-bottom-left-radius: 15px;
+			padding-left: 10px;
+			padding-bottom: 10px;
+			border-top-right-radius: 15px;
+			margin-right: 20px;
+			background-color: #ffffff;
+			margin-left: 20px;
+			box-shadow: 0px 1px 6px 1px rgba(31, 31, 31, 0.09);
+			overflow: hidden;
+			width: calc(100% - 20px - 20px) !important;
+			border-top-left-radius: 15px;
+			margin-top: 15px;
+			border-bottom-right-radius: 15px;
+			margin-bottom: 0px;
+			padding-right: 10px;
+		}
+		.grid1-item-clz {
+			font-size: 11px;
+			margin: 0px;
+			padding: 10px;
+		}
+		.grid1-icon-clz {
+			font-size: 40px !important;
+
+			width: 30px;
+			height: 30px;
+		}
+		.flex9-clz {
+			border-bottom-left-radius: 18px;
+			z-index: 1000;
+			border-top-right-radius: 18px;
+			margin-right: 15px;
+			background-color: rgba(255, 255, 255, 1);
+			margin-left: 15px;
+			box-shadow: 0px 1px 3px rgba(31, 31, 31, 0.16);
+			overflow: hidden;
+			width: calc(100% - 15px - 15px) !important;
+			border-top-left-radius: 18px;
+			margin-top: 10px;
+			border-bottom-right-radius: 18px;
+			margin-bottom: 5px;
+		}
+		.flex1-clz {
+			padding-top: 10px;
+			border-bottom-left-radius: 6px;
+			padding-left: 10px;
+			padding-bottom: 10px;
+			border-top-right-radius: 6px;
+			margin-right: 10px;
+			margin-left: 10px;
+			box-shadow: 0px 1px 4px 1px rgba(77, 77, 77, 0.19);
+			overflow: hidden;
+			width: calc(100% - 10px - 10px) !important;
+			border-top-left-radius: 6px;
+			margin-top: 10px;
+			border-bottom-right-radius: 6px;
+			margin-bottom: 10px;
+			height: 150px;
+			padding-right: 10px;
+		}
+		.image4-clz {
+			border-bottom-left-radius: 6px;
+			overflow: hidden;
+			border-top-left-radius: 6px;
+			border-top-right-radius: 6px;
+			border-bottom-right-radius: 6px;
+		}
+		.image4-size {
+			height: 130px !important;
+			width: 120px !important;
+		}
+		.flex2-clz {
+			margin-left: 5px;
+			flex: 1;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+		}
+		.text18-clz {
+			font-size: 14px !important;
+		}
+		.flex4-clz {
+			border-bottom-left-radius: 18px;
+			z-index: 1000;
+			border-top-right-radius: 18px;
+			margin-right: 15px;
+			background-color: rgba(255, 255, 255, 1);
+			margin-left: 15px;
+			box-shadow: 0px 1px 3px rgba(31, 31, 31, 0.16);
+			overflow: hidden;
+			width: calc(100% - 15px - 15px) !important;
+			border-top-left-radius: 18px;
+			margin-top: 10px;
+			border-bottom-right-radius: 18px;
+			margin-bottom: 5px;
+		}
+		.flex5-clz {
+			padding-top: 10px;
+			border-bottom-left-radius: 6px;
+			padding-left: 10px;
+			padding-bottom: 10px;
+			border-top-right-radius: 6px;
+			margin-right: 10px;
+			margin-left: 10px;
+			box-shadow: 0px 1px 4px 1px rgba(77, 77, 77, 0.19);
+			overflow: hidden;
+			width: calc(100% - 10px - 10px) !important;
+			border-top-left-radius: 6px;
+			margin-top: 10px;
+			border-bottom-right-radius: 6px;
+			margin-bottom: 10px;
+			padding-right: 10px;
+		}
+		.image2-clz {
+			border-bottom-left-radius: 6px;
+			overflow: hidden;
+			border-top-left-radius: 6px;
+			border-top-right-radius: 6px;
+			border-bottom-right-radius: 6px;
+		}
+		.image2-size {
+			height: 120px !important;
+			width: 120px !important;
+		}
+		.flex8-clz {
+			margin-left: 5px;
+			flex: 1;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+		}
+		.text1-clz {
+			font-size: 14px !important;
+		}
+		.flex11-clz {
+			border-bottom-left-radius: 18px;
+			z-index: 1000;
+			border-top-right-radius: 18px;
+			margin-right: 15px;
+			background-color: rgba(255, 255, 255, 1);
+			margin-left: 15px;
+			box-shadow: 0px 1px 3px rgba(31, 31, 31, 0.16);
+			overflow: hidden;
+			width: calc(100% - 15px - 15px) !important;
+			border-top-left-radius: 18px;
+			margin-top: 10px;
+			border-bottom-right-radius: 18px;
+			margin-bottom: 5px;
+		}
+		.flex12-clz {
+			padding-top: 10px;
+			border-bottom-left-radius: 6px;
+			padding-left: 10px;
+			padding-bottom: 10px;
+			border-top-right-radius: 6px;
+			margin-right: 10px;
+			margin-left: 10px;
+			box-shadow: 0px 1px 4px 1px rgba(77, 77, 77, 0.19);
+			overflow: hidden;
+			width: calc(100% - 10px - 10px) !important;
+			border-top-left-radius: 6px;
+			margin-top: 10px;
+			border-bottom-right-radius: 6px;
+			margin-bottom: 10px;
+			padding-right: 10px;
+		}
+		.image3-clz {
+			border-bottom-left-radius: 6px;
+			overflow: hidden;
+			border-top-left-radius: 6px;
+			border-top-right-radius: 6px;
+			border-bottom-right-radius: 6px;
+		}
+		.image3-size {
+			height: 120px !important;
+			width: 120px !important;
+		}
+		.flex14-clz {
+			margin-left: 5px;
+			flex: 1;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+		}
+		.text4-clz {
+			font-size: 14px !important;
+		}
+		.container24325 {
+			padding-left: 0px;
+			padding-right: 0px;
+
+			background-image: url(/static/bg-14.jpg);
+			background-position: top center;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+		.not-wrap {
+			overflow: hidden;
+			width: 100%;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+		.line2 {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+		}
+		.container24325 {
+			padding-bottom: 80px;
+		}
+	</style>
+</html>
